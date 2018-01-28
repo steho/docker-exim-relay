@@ -101,6 +101,8 @@ The smarthost password can also be supplied via docker swarm secrets / rancher s
 
 ## Debugging
 
+Logging to /dev/stdout and /dev/stderr are currently broken because user exim cannot write to them.
+
 The logs are sent to /dev/stdout and /dev/stderr and can be viewed via docker logs
 
 ```shell
